@@ -30,3 +30,11 @@ Open `index.html` in a browser. For best results use a local static server or de
 5. Test the site over HTTPS and on a phone.
 
 If your domain is registered at VentraIP, keep the registration there; you can point its DNS to Cloudflare by following Cloudflare's exact instructions. Domain registration and website hosting are separate services.
+
+
+FORMSPREE ENQUIRY FORM
+----------------------
+The enquiry form is connected to Formspree at https://formspree.io/f/xljbjdjz.
+Submissions are sent by a standard HTML POST. Confirm the recipient email in your
+Formspree dashboard, complete any required email verification, and submit a test
+enquiry from the live website before advertising the form.
