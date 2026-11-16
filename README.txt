@@ -1,40 +1,27 @@
-# Instant Fairways website
+INSTANT FAIRWAYS V2 — PREVIEW BEFORE DEPLOYMENT
 
-This is a responsive static website built with HTML, CSS and vanilla JavaScript.
+1. Extract this ZIP.
+2. Open index.html locally to preview (internet connection needed for Google Fonts).
+3. IMPORTANT: Your current live website is not modified by this ZIP.
+4. Once approved, upload index.html, styles.css, script.js AND the entire images folder to your GitHub repository root.
+5. Cloudflare Pages should redeploy automatically from your connected repository.
+6. Test on mobile and desktop. Submit a test enquiry and confirm it arrives in Formspree/Gmail.
 
-## Files
-- `index.html` — page content and structure
-- `styles.css` — layout, colours, typography and responsive styling
-- `script.js` — mobile navigation and form placeholder behaviour
+FORM: Formspree action https://formspree.io/f/xljbjdjz (existing endpoint). Native POST submission.
+IMAGES: User-provided illustrative simulator imagery; confirm you own rights/permission for commercial website use before publishing.
+NOTE: This is a custom Framer-inspired recreation, not a byte-for-byte Framer export.
+NOTE: Current business status is expressions of interest / launching soon, not confirmed bookings.
 
-## Important before launch
-The enquiry form is currently a front-end placeholder. It does **not** send emails. Connect it to Formspree or a Cloudflare Pages Function before publishing it as a live lead-generation form. Never advertise the form as working until a real test enquiry has arrived in the nominated inbox.
+V2.1: Golf Days and Brand Activations now have illustrative images; Your Idea card removed. Existing Formspree form unchanged. The last two images reuse photos already in this package; replace with licensed dedicated event photos later.
 
-## Preview locally
-Open `index.html` in a browser. For best results use a local static server or deploy to Cloudflare Pages.
+V2.2: Unique generated concept images for Golf Days and Brand Activations. FAQ updated with indicative $300/hour and $1,000 four-hour package. These are proposed, not final rates.
 
-## Deploy with Cloudflare Pages (Git integration)
-1. Create a GitHub account if you don't already have one.
-2. Create a new repository named `instant-fairways`.
-3. Upload `index.html`, `styles.css`, and `script.js` to the repository root.
-4. In Cloudflare Dashboard, go to Workers & Pages → Create → Pages → Connect to Git.
-5. Choose the `instant-fairways` repository.
-6. Framework preset: None. Build command: leave blank. Build output directory: `/` (or `.` if the dashboard requests a relative directory).
-7. Deploy. Cloudflare will provide a `*.pages.dev` preview address.
+V3 BRAND PREVIEW: Updated header/footer logo to the chosen IF circular design; added standalone emblem and favicon. All five event images, indicative pricing and working Formspree endpoint are preserved.
+Note: logo PNGs are extracted from an AI-generated image, not true vector artwork. Check edges/legibility on mobile before publishing. No trademark clearance has been performed.
+Preview by opening index.html locally. Do not upload to GitHub until happy.
 
-## Connect your custom domain
-1. In the Pages project, open Custom domains → Set up a custom domain.
-2. Enter `instantfairways.com.au` and follow the DNS instructions Cloudflare provides.
-3. Do not guess DNS records. Use the exact records Cloudflare shows.
-4. Set `www.instantfairways.com.au` as an additional custom domain if desired, then choose one canonical address and redirect the other to it.
-5. Test the site over HTTPS and on a phone.
-
-If your domain is registered at VentraIP, keep the registration there; you can point its DNS to Cloudflare by following Cloudflare's exact instructions. Domain registration and website hosting are separate services.
-
-
-FORMSPREE ENQUIRY FORM
-----------------------
-The enquiry form is connected to Formspree at https://formspree.io/f/xljbjdjz.
-Submissions are sent by a standard HTML POST. Confirm the recipient email in your
-Formspree dashboard, complete any required email verification, and submit a test
-enquiry from the live website before advertising the form.
+V3.1 MOBILE UPDATE
+- Mobile navigation, logo, headline, and form layout improved.
+- To test on your phone, publish to Cloudflare Pages; opening index.html on a laptop does not make it available on other devices.
+- Upload the CONTENTS of this folder to your GitHub repository, including images/, index.html, styles.css, script.js, favicon.png. Do not upload the outer folder as a nested directory.
+- The Formspree endpoint remains unchanged. Test after publishing.

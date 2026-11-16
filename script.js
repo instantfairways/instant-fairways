@@ -1,14 +1,1 @@
-const menuButton = document.querySelector(".menu-toggle");
-const nav = document.querySelector(".nav");
-menuButton?.addEventListener("click", () => {
-  const open = nav.classList.toggle("open");
-  menuButton.setAttribute("aria-expanded", String(open));
-});
-nav?.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
-  nav.classList.remove("open");
-  menuButton?.setAttribute("aria-expanded", "false");
-}));
-document.querySelector("#year").textContent = new Date().getFullYear();
-
-// The enquiry form submits directly to Formspree using its HTML form endpoint.
-// Native browser validation runs before the POST request is sent.
+const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('.nav');toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰';});document.querySelectorAll('.nav a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='☰';}));document.getElementById('year').textContent=new Date().getFullYear();
