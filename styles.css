@@ -14,3 +14,9 @@ html,body{max-width:100%;overflow-x:clip}*,*::before,*::after{box-sizing:border-
 @media(max-width:850px){.site-header{padding:16px 20px}.menu-toggle{flex:none;min-width:44px;min-height:44px;display:grid;place-items:center;z-index:22}.nav{top:100%;box-shadow:0 18px 35px #000b}.hero-inner{padding-top:125px}.hero-copy{min-width:0}.glass-form{min-width:0}.hero{background-position:57% center}}
 @media(max-width:540px){.site-header{padding:12px 16px}.brand-logo{width:min(57vw,195px);max-height:65px}.hero-inner{padding:115px 16px 65px;gap:38px}.hero h1{font-size:clamp(61px,17vw,96px);letter-spacing:-.5px;overflow-wrap:normal}.hero-copy>p{font-size:14px}.hero-actions{gap:14px}.hero-tags{gap:7px}.hero-tags span{padding:8px}.glass-form{padding:18px}.glass-form h2{font-size:42px}.glass-form input,.glass-form select,.glass-form textarea{font-size:16px}.section h2{overflow-wrap:break-word}.last-cta h2{font-size:clamp(64px,16vw,90px)}.image-break h2{font-size:clamp(58px,14vw,100px)}.event-overlay h3{font-size:32px}footer .brand-logo{width:200px}}
 @media(max-width:360px){.hero h1{font-size:59px}.glass-form h2{font-size:37px}.eyebrow{font-size:9px;letter-spacing:1px}}
+
+/* V3.3: consistent vector arrows across mobile and desktop */
+.arrow-icon { width: 1.05em; height: 1.05em; display: inline-block; vertical-align: -0.12em; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round; }
+.button-arrow { display: inline-flex; align-items: center; justify-content: center; }
+.btn .arrow-icon, .text-link .arrow-icon, .nav-cta .arrow-icon { margin-left: .35em; }
+.hero-bottom .arrow-icon { margin-left: .25em; }

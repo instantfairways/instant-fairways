@@ -25,3 +25,5 @@ V3.1 MOBILE UPDATE
 - To test on your phone, publish to Cloudflare Pages; opening index.html on a laptop does not make it available on other devices.
 - Upload the CONTENTS of this folder to your GitHub repository, including images/, index.html, styles.css, script.js, favicon.png. Do not upload the outer folder as a nested directory.
 - The Formspree endpoint remains unchanged. Test after publishing.
+
+V3.3: Replaced emoji-prone arrow characters on CTAs with consistent inline SVG icons. All other website content unchanged.
