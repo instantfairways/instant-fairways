@@ -20,3 +20,8 @@ html,body{max-width:100%;overflow-x:clip}*,*::before,*::after{box-sizing:border-
 .button-arrow { display: inline-flex; align-items: center; justify-content: center; }
 .btn .arrow-icon, .text-link .arrow-icon, .nav-cta .arrow-icon { margin-left: .35em; }
 .hero-bottom .arrow-icon { margin-left: .25em; }
+
+/* Consistent lightweight feature icons across mobile and desktop */
+.feature-icon{display:flex;align-items:center;justify-content:flex-start;height:40px;margin:24px 0 16px}
+.feature-icon svg{display:block;width:34px;height:34px;fill:none;stroke:var(--lime);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:700px){.feature-icon{height:30px;margin:12px 0}.feature-icon svg{width:26px;height:26px;stroke-width:1.8}}
